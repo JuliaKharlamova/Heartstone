@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		0A44631D24723AED004283CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A44631B24723AED004283CD /* Main.storyboard */; };
 		0A44631F24723AFC004283CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A44631E24723AFC004283CD /* Assets.xcassets */; };
 		0A44632224723AFC004283CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A44632024723AFC004283CD /* LaunchScreen.storyboard */; };
+		0A44632C2472461A004283CD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44632B24724619004283CD /* CardView.swift */; };
+		0A63BCBA2480A7EC001E1EE9 /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63BCB92480A7EC001E1EE9 /* MusicHelper.swift */; };
+		0A63BCBE2480DD65001E1EE9 /* DetailCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63BCBD2480DD65001E1EE9 /* DetailCardController.swift */; };
+		0A6D76E524B58A5200E367FE /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D76E424B58A5200E367FE /* Extensions+UIView.swift */; };
+		0A6D76E724B58A6000E367FE /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D76E624B58A6000E367FE /* Extensions+UIView.swift */; };
+		0A6D76E924B58AD800E367FE /* Hearthstone — Main Title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D76E824B58AD800E367FE /* Hearthstone — Main Title.mp3 */; };
+		0A9D68FF247CF84F007A92E2 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D68FE247CF84F007A92E2 /* SearchController.swift */; };
+		0A9D6901247CFBF3007A92E2 /* SearchCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D6900247CFBF3007A92E2 /* SearchCardCell.swift */; };
+		0AAF6F7B24738ED200E4A2B6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF6F7A24738ED200E4A2B6 /* SettingsViewController.swift */; };
+		0AAF6F7D2473A60F00E4A2B6 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF6F7C2473A60F00E4A2B6 /* SettingsModel.swift */; };
+		0AC162A3247273B000AE9C74 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC162A2247273B000AE9C74 /* Model.swift */; };
+		0AE2A39B2474CDEC006F4DE1 /* ParametrStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2A39A2474CDEB006F4DE1 /* ParametrStackView.swift */; };
+		0AE2A39D24752222006F4DE1 /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2A39C24752222006F4DE1 /* AlertButton.swift */; };
+		C270575AD54C5713245991E5 /* Pods_Heartstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CB8396DB955EF2C8613F35 /* Pods_Heartstone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,22 @@
 		0A44631E24723AFC004283CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A44632124723AFC004283CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A44632324723AFC004283CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A44632B24724619004283CD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0A63BCB92480A7EC001E1EE9 /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
+		0A63BCBD2480DD65001E1EE9 /* DetailCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardController.swift; sourceTree = "<group>"; };
+		0A6D76E424B58A5200E367FE /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+UIView.swift"; path = "../../../Обязательно/Extensions+UIView.swift"; sourceTree = "<group>"; };
+		0A6D76E624B58A6000E367FE /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Extensions+UIView.swift"; path = "../../../../Обязательно/Extensions+UIView.swift"; sourceTree = "<group>"; };
+		0A6D76E824B58AD800E367FE /* Hearthstone — Main Title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hearthstone — Main Title.mp3"; path = "../../../../../Downloads/Hearthstone — Main Title.mp3"; sourceTree = "<group>"; };
+		0A9D68FE247CF84F007A92E2 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		0A9D6900247CFBF3007A92E2 /* SearchCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCardCell.swift; sourceTree = "<group>"; };
+		0AAF6F7A24738ED200E4A2B6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0AAF6F7C2473A60F00E4A2B6 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		0AC162A2247273B000AE9C74 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0AE2A39A2474CDEB006F4DE1 /* ParametrStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametrStackView.swift; sourceTree = "<group>"; };
+		0AE2A39C24752222006F4DE1 /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		5CE4337B428BF7C3ABD50C34 /* Pods-Heartstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartstone.release.xcconfig"; path = "Target Support Files/Pods-Heartstone/Pods-Heartstone.release.xcconfig"; sourceTree = "<group>"; };
+		69CB8396DB955EF2C8613F35 /* Pods_Heartstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heartstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F8ABFEDF865F3F35511B76 /* Pods-Heartstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartstone.debug.xcconfig"; path = "Target Support Files/Pods-Heartstone/Pods-Heartstone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C270575AD54C5713245991E5 /* Pods_Heartstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				0A44631424723AED004283CD /* Heartstone */,
 				0A44631324723AED004283CD /* Products */,
+				4C32176DF0EFF5264BFC9A44 /* Pods */,
+				8F083A66875EC90772AD9128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,91 @@
 			children = (
 				0A44631524723AED004283CD /* AppDelegate.swift */,
 				0A44631724723AED004283CD /* SceneDelegate.swift */,
-				0A44631924723AED004283CD /* ViewController.swift */,
+				0A6C1D9B247F5EAF000120F1 /* Models */,
+				0A6C1DA1247F5F39000120F1 /* MainController */,
+				0A6C1D98247F5E5A000120F1 /* Card */,
+				0A6C1D9A247F5E93000120F1 /* Settings */,
+				0A6C1D99247F5E78000120F1 /* Search */,
+				0A6C1D9C247F5EC8000120F1 /* Other */,
+				0A6D76E424B58A5200E367FE /* Extensions+UIView.swift */,
 				0A44631B24723AED004283CD /* Main.storyboard */,
 				0A44631E24723AFC004283CD /* Assets.xcassets */,
 				0A44632024723AFC004283CD /* LaunchScreen.storyboard */,
 				0A44632324723AFC004283CD /* Info.plist */,
 			);
 			path = Heartstone;
+			sourceTree = "<group>";
+		};
+		0A6C1D98247F5E5A000120F1 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				0A44632B24724619004283CD /* CardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		0A6C1D99247F5E78000120F1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D68FE247CF84F007A92E2 /* SearchController.swift */,
+				0A9D6900247CFBF3007A92E2 /* SearchCardCell.swift */,
+				0A63BCBD2480DD65001E1EE9 /* DetailCardController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0A6C1D9A247F5E93000120F1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF6F7A24738ED200E4A2B6 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0A6C1D9B247F5EAF000120F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AC162A2247273B000AE9C74 /* Model.swift */,
+				0AAF6F7C2473A60F00E4A2B6 /* SettingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A6C1D9C247F5EC8000120F1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0AE2A39C24752222006F4DE1 /* AlertButton.swift */,
+				0AE2A39A2474CDEB006F4DE1 /* ParametrStackView.swift */,
+				0A6D76E624B58A6000E367FE /* Extensions+UIView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A6C1DA1247F5F39000120F1 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				0A44631924723AED004283CD /* ViewController.swift */,
+				0A63BCB92480A7EC001E1EE9 /* MusicHelper.swift */,
+				0A6D76E824B58AD800E367FE /* Hearthstone — Main Title.mp3 */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		4C32176DF0EFF5264BFC9A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0F8ABFEDF865F3F35511B76 /* Pods-Heartstone.debug.xcconfig */,
+				5CE4337B428BF7C3ABD50C34 /* Pods-Heartstone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F083A66875EC90772AD9128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CB8396DB955EF2C8613F35 /* Pods_Heartstone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A44632624723AFC004283CD /* Build configuration list for PBXNativeTarget "Heartstone" */;
 			buildPhases = (
+				7EFB39CB0ACC3C3FC824F3BC /* [CP] Check Pods Manifest.lock */,
 				0A44630E24723AED004283CD /* Sources */,
 				0A44630F24723AED004283CD /* Frameworks */,
 				0A44631024723AED004283CD /* Resources */,
+				7ECBBDEDAB129DB9AF465549 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A44632224723AFC004283CD /* LaunchScreen.storyboard in Resources */,
+				0A6D76E924B58AD800E367FE /* Hearthstone — Main Title.mp3 in Resources */,
 				0A44631F24723AFC004283CD /* Assets.xcassets in Resources */,
 				0A44631D24723AED004283CD /* Main.storyboard in Resources */,
 			);
@@ -133,14 +247,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ECBBDEDAB129DB9AF465549 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heartstone/Pods-Heartstone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heartstone/Pods-Heartstone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Heartstone/Pods-Heartstone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EFB39CB0ACC3C3FC824F3BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heartstone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A44630E24723AED004283CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAF6F7D2473A60F00E4A2B6 /* SettingsModel.swift in Sources */,
 				0A44631A24723AED004283CD /* ViewController.swift in Sources */,
+				0A9D68FF247CF84F007A92E2 /* SearchController.swift in Sources */,
+				0A63BCBE2480DD65001E1EE9 /* DetailCardController.swift in Sources */,
+				0A9D6901247CFBF3007A92E2 /* SearchCardCell.swift in Sources */,
+				0A6D76E524B58A5200E367FE /* Extensions+UIView.swift in Sources */,
+				0A44632C2472461A004283CD /* CardView.swift in Sources */,
 				0A44631624723AED004283CD /* AppDelegate.swift in Sources */,
+				0AE2A39D24752222006F4DE1 /* AlertButton.swift in Sources */,
+				0AC162A3247273B000AE9C74 /* Model.swift in Sources */,
 				0A44631824723AED004283CD /* SceneDelegate.swift in Sources */,
+				0AAF6F7B24738ED200E4A2B6 /* SettingsViewController.swift in Sources */,
+				0AE2A39B2474CDEC006F4DE1 /* ParametrStackView.swift in Sources */,
+				0A63BCBA2480A7EC001E1EE9 /* MusicHelper.swift in Sources */,
+				0A6D76E724B58A6000E367FE /* Extensions+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,7 @@
 		};
 		0A44632724723AFC004283CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F8ABFEDF865F3F35511B76 /* Pods-Heartstone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +460,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JuliaMiron.Heartstone;
+				PRODUCT_BUNDLE_IDENTIFIER = HeartstoneAppL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +469,7 @@
 		};
 		0A44632824723AFC004283CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE4337B428BF7C3ABD50C34 /* Pods-Heartstone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JuliaMiron.Heartstone;
+				PRODUCT_BUNDLE_IDENTIFIER = HeartstoneAppL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
