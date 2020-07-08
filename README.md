@@ -1,2 +1,2 @@
 # Heartstone
-![alt text]([img]https://i.imgur.com/BRfzydA.gif[/img])
+![alt text](https://i.imgur.com/BRfzydA.gif)
